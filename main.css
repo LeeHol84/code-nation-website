@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Niconne&display=swap");
+
+body {
+  background-image: url("book1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+
+.contents {
+  display: flex;
+  flex-flow: column wrap;
+  padding-left: 7%;
+  
+}
+
+.para1 {
+  align-self: flex-start;
+  font-family: "Niconne", sans-serif;
+  font-size: 50px;
+}
+
+.para2 {
+  align-self: flex-start;
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+}
+
+.para3 {
+  align-self: flex-start;
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+}
+.para4 {
+    align-self:flex-start;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    } 
+.para5 {
+    align-self:flex-start;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    }   
+.para6 {
+    align-self:flex-start;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+    }   
+    
+.about {
+    align-self:flex-end;
+    scroll-padding-block-start:  end 20px;;
+    font-family: 'Niconne', sans-serif;
+    padding-right: 10%;
+    font-size: 35px;
+
+
+}
+
+/* !!!!!!  first page   !!!!!! */
+
+
+
+
+.reviews {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    flex-flow: column wrap;
+}
+
+.title1 {
+    align-self: flex-start;
+    font-family: "Niconne", sans-serif;
+    font-size: 40px;
+}
+.tcom {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+
+.hobbit {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+.dreamv {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+/* 
+!!!!!!!     SECOND PAGE    !!!!! */
+
+.forum {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    flex-flow: column wrap;
+}
+
+.title2 {
+    align-self: flex-start;
+    font-family: "Niconne", sans-serif;
+    font-size: 40px;
+
+}
+
+.forms {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 20px;
+
+
+}
+
+/* !!!!!!!!     THIRD PAGE      !!!!!!! */
+
+.Adaptions {
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    flex-flow: column wrap;
+}
+
+.title3 {
+    align-self: flex-start;
+    font-family: "Niconne", sans-serif;
+    font-size: 40px;
+}
+.foundation {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+
+.dune {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+.his {
+    align-self: flex-start;
+    font-family: "Merriweather", sans-serif;
+    font-size: 18px;
+}
+
+/* !!!!!!!!!!!   LAST PAGE     !!!!!!!!!! */
+
+.Acknowledgements { 
+    display: flex;
+    padding-left: 7%;
+    padding-right: 7%;
+    flex-flow: column wrap;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Niconne", sans-serif;
+    font-size: 30px;
+}
+
+
